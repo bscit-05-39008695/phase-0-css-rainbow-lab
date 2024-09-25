@@ -1,11 +1,53 @@
+/* Tag selector to select the 'body' element */
+body {
+  background-color: #00b3e6; /* Light blue background */
+}
+
+/* Tag selector to select all 'div' elements. */
 div {
-  border: 20px solid #000; /* this is short hand for setting
-                            the border's width, its type, and color */
-  display: inline-block; /* a way of positioning elements */
-  min-width: 20em; /* the two min styles make the shape */
-  min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
-  border-left-color: transparent; /* these remove the color from the left side */
-  border-right-color: transparent; /* the right side */
-  border-bottom-color: transparent; /* and the bottom of the circle */
+  width: 700px; /* Set width to 700px */
+  height: 100px; /* Set height for each div */
+  margin: auto; /* Center the div */
+}
+
+/* ID selectors for each rainbow color */
+#red {
+  background-color: #f00; /* Red */
+  border-top-color: #f00; /* Red border */
+}
+
+#orange {
+  background-color: #ffa500; /* Orange */
+  border-top-color: #ffa500; /* Orange border */
+}
+
+#yellow {
+  background-color: #ff0; /* Yellow */
+  border-top-color: #ff0; /* Yellow border */
+}
+
+#green {
+  background-color: #00bc3f; /* Green */
+  border-top-color: #00bc3f; /* Green border */
+}
+
+#blue {
+  background-color: #06f; /* Blue */
+  border-top-color: #06f; /* Blue border */
+}
+
+#indigo {
+  background-color: #8a2be2; /* Indigo */
+  border-top-color: #8a2be2; /* Indigo border */
+}
+
+#violet {
+  background-color: #d300c9; /* Violet */
+  border-top-color: #d300c9; /* Violet border */
+}
+
+/* Optional: Add a border style */
+div {
+  border-style: solid; /* Set border style */
+  border-width: 5px; /* Set border width */
 }
